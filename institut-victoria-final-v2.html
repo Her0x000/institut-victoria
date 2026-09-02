@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Institut Privé Bilingue Victoria — établissement secondaire bilingue à Béka, Ngaoundéré.">
+<meta name="theme-color" content="#0b2341">
+<title>Institut Privé Bilingue Victoria | Béka</title>
+<style>
+:root{--navy:#0b2341;--blue:#165d9b;--gold:#d7a83f;--cream:#f7f8fb;--ink:#172337;--muted:#5d6a7c;--white:#fff;--radius:20px;--shadow:0 20px 60px #071a3218}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}a{text-decoration:none;color:inherit}img{max-width:100%}.container{width:min(1120px,calc(100% - 36px));margin:auto}
+.topbar{background:#071a32;color:#dfe8f3;font-size:.86rem}.topbar .container{display:flex;justify-content:space-between;gap:20px;padding:8px 0}
+header{position:sticky;top:0;z-index:20;background:#fffdfdf2;backdrop-filter:blur(14px);border-bottom:1px solid #0b234112}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}.logo{width:46px;height:46px;border-radius:13px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:900;letter-spacing:-1px}.brand small{display:block;color:var(--muted);font-weight:600;font-size:.72rem}
+nav{display:flex;gap:26px;align-items:center}nav a{font-weight:700;font-size:.92rem;color:#34445a}nav a:hover{color:var(--blue)}.lang{border:1px solid #0b234130;background:#fff;border-radius:999px;padding:8px 13px;font-weight:800;cursor:pointer}
+.menu{display:none;border:0;background:none;font-size:25px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#071a32,#114c82 70%,#0b2341);color:#fff}.hero:after{content:"";position:absolute;inset:auto -10% -55% 35%;height:420px;background:#d7a83f22;border-radius:50%}
+.hero .container{position:relative;z-index:1;padding:96px 0 90px}.eyebrow{display:inline-block;border:1px solid #ffffff38;background:#ffffff12;border-radius:999px;padding:7px 13px;font-weight:800;font-size:.82rem;letter-spacing:.04em}.hero h1{font-size:clamp(3.2rem,8vw,6.7rem);line-height:.92;margin:20px 0 18px;letter-spacing:-.055em}.hero p{max-width:720px;font-size:clamp(1.05rem,2vw,1.35rem);color:#e7eef7}.badge{display:inline-block;margin-top:18px;color:#fff;background:#d7a83f;padding:8px 13px;border-radius:999px;font-weight:800}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{padding:13px 19px;border-radius:12px;font-weight:800;border:1px solid transparent}.primary{background:#fff;color:var(--navy)}.outline{border-color:#ffffff50;color:#fff}
+.section{padding:82px 0}.section.alt{background:#fff}.kicker{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:.76rem}.section h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;margin:10px 0 14px;color:var(--navy);letter-spacing:-.035em}.lede{color:var(--muted);max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.card{background:#fff;border:1px solid #0b234110;border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}.card h3{margin:0 0 8px;color:var(--navy);font-size:1.25rem}.card p{margin:0;color:var(--muted)}.card .tag{display:inline-block;margin-bottom:15px;background:#eaf2fb;color:var(--blue);border-radius:999px;padding:5px 10px;font-size:.75rem;font-weight:900}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}.panel{background:#fff;border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);border:1px solid #0b234110}.facts{display:grid;gap:14px;margin-top:24px}.fact{display:flex;gap:14px;align-items:flex-start}.icon{width:40px;height:40px;flex:none;border-radius:12px;background:#eaf2fb;display:grid;place-items:center}.fact strong{display:block;color:var(--navy)}.fact span{color:var(--muted);font-size:.93rem}
+.cta{background:var(--navy);color:#fff;border-radius:28px;padding:45px}.cta h2{color:#fff}.cta p{color:#dce7f3;max-width:680px}
+footer{background:#071a32;color:#d9e3ef;padding:35px 0}.footerrow{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footerbrand{font-weight:900;color:#fff}.copyright{margin-top:25px;padding-top:18px;border-top:1px solid #ffffff18;color:#9fb0c4;font-size:.82rem}
+@media(max-width:760px){.topbar .container{display:block;text-align:center}.topbar span:last-child{display:none}nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:18px;box-shadow:0 18px 35px #0002;flex-direction:column;align-items:flex-start}.menu{display:block}.nav.open nav{display:flex}.grid,.split{grid-template-columns:1fr}.hero .container{padding:72px 0}.section{padding:62px 0}.cta{padding:30px 24px}}
+</style>
+
+<style>
+/* --- Victoria premium upgrade --- */
+.notice{background:#fff7df;border-left:4px solid var(--gold);padding:14px 18px;border-radius:12px;color:#5f4a17;margin-top:24px}
+.news-grid,.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.news-card{overflow:hidden;background:#fff;border:1px solid #0b234110;border-radius:20px;box-shadow:var(--shadow)}
+.news-cover{height:150px;background:linear-gradient(135deg,#0b2341,#1b6da9);display:grid;place-items:center;color:#fff;font-size:2.4rem}
+.news-body{padding:22px}.news-body small{color:var(--blue);font-weight:800}.news-body h3{margin:7px 0;color:var(--navy)}
+.gallery figure{margin:0;background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);border:1px solid #0b234110}
+.gallery .photo{height:180px;display:grid;place-items:center;background:linear-gradient(135deg,#dceafa,#f7e7b4);font-size:3rem}
+.gallery figcaption{padding:13px 15px;font-weight:700;color:var(--navy)}
+.downloads{display:grid;gap:12px;margin-top:25px}
+.download{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px 19px;background:#fff;border:1px solid #0b234110;border-radius:15px}
+.download span{color:var(--muted)}.download b{color:var(--navy)}
+.pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#eaf2fb;color:var(--blue);font-size:.74rem;font-weight:900}
+.whatsapp{position:fixed;right:20px;bottom:20px;z-index:30;background:#168c4b;color:#fff;border-radius:999px;padding:13px 18px;font-weight:900;box-shadow:0 12px 30px #0003}
+.whatsapp:hover{transform:translateY(-2px)}
+.form{display:grid;gap:13px;margin-top:22px}.form input,.form textarea,.form select{width:100%;padding:13px 14px;border:1px solid #0b234125;border-radius:12px;font:inherit;background:#fff}.form textarea{min-height:120px;resize:vertical}
+.small-note{font-size:.83rem;color:var(--muted)}
+@media(max-width:760px){.news-grid,.gallery{grid-template-columns:1fr}.download{align-items:flex-start;flex-direction:column}.whatsapp{right:14px;bottom:14px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>📍 Béka, Ngaoundéré — face au Lycée de Béka</span><span>Institut Privé Bilingue Victoria</span></div></div>
+
+<header id="top"><div class="container nav" id="nav">
+<a class="brand" href="#top"><span class="logo">V</span><span>Institut Privé Bilingue Victoria<small>Béka • Ngaoundéré</small></span></a>
+<button class="menu" aria-label="Menu">☰</button>
+<nav><a href="#institut">L'Institut</a><a href="#sections">Sections</a><a href="#admissions">Admission</a><a href="#actualites">Actualités</a><a href="#documents">Documents</a><a href="#contact">Contact</a><button class="lang" id="lang">EN</button></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="container">
+<span class="eyebrow" data-fr="ENSEIGNEMENT SECONDAIRE GÉNÉRAL BILINGUE" data-en="BILINGUAL GENERAL SECONDARY EDUCATION">ENSEIGNEMENT SECONDAIRE GÉNÉRAL BILINGUE</span>
+<h1>Victoria</h1>
+<p data-fr="Deux systèmes éducatifs. Une même ambition : former des élèves solides, disciplinés et préparés pour leur avenir." data-en="Two education systems. One ambition: developing strong, disciplined students prepared for their future.">Deux systèmes éducatifs. Une même ambition : former des élèves solides, disciplinés et préparés pour leur avenir.</p>
+<span class="badge">📍 Béka — Ngaoundéré</span>
+<div class="actions"><a class="btn primary" href="#sections" data-fr="Découvrir les sections" data-en="Discover our sections">Découvrir les sections</a><a class="btn outline" href="#contact" data-fr="Nous contacter" data-en="Contact us">Nous contacter</a></div>
+</div></section>
+
+<section class="section" id="institut"><div class="container split">
+<div><span class="kicker">L'Institut</span><h2 data-fr="Un établissement bilingue à Béka" data-en="A bilingual school in Beka">Un établissement bilingue à Béka</h2><p class="lede" data-fr="L'Institut Privé Bilingue Victoria est un établissement d'enseignement secondaire général bilingue situé au quartier Béka, à Ngaoundéré. L'établissement est identifié comme centre d'examen du GCE." data-en="Institut Privé Bilingue Victoria is a bilingual general secondary school located in the Beka area of Ngaoundere. The school is listed as a GCE examination centre.">L'Institut Privé Bilingue Victoria est un établissement d'enseignement secondaire général bilingue situé au quartier Béka, à Ngaoundéré. L'établissement est identifié comme centre d'examen du GCE.</p></div>
+<div class="panel"><span class="kicker">Repères</span><div class="facts">
+<div class="fact"><span class="icon">🎓</span><div><strong>Section francophone</strong><span>6ème → Terminale</span></div></div>
+<div class="fact"><span class="icon">🌍</span><div><strong>Section anglophone</strong><span>Form One → Upper Sixth</span></div></div>
+<div class="fact"><span class="icon">📍</span><div><strong>Localisation</strong><span>Béka, face au Lycée de Béka</span></div></div>
+</div></div>
+</div></section>
+
+<section class="section alt" id="sections"><div class="container"><span class="kicker">Nos sections</span><h2 data-fr="Deux parcours, un même établissement" data-en="Two pathways, one school">Deux parcours, un même établissement</h2><p class="lede" data-fr="Les informations ci-dessous reprennent les parcours déjà indiqués pour l'établissement. Les détails administratifs et les options par classe pourront être ajoutés dès qu'ils sont confirmés." data-en="The information below reflects the pathways already identified for the school. Administrative details and class options can be added once confirmed.">Les informations ci-dessous reprennent les parcours déjà indiqués pour l'établissement. Les détails administratifs et les options par classe pourront être ajoutés dès qu'ils sont confirmés.</p>
+<div class="grid">
+<article class="card"><span class="tag">FRANCOPHONE</span><h3>6ème → Terminale</h3><p data-fr="Parcours secondaire francophone jusqu'au lycée." data-en="Francophone secondary pathway through high school.">Parcours secondaire francophone jusqu'au lycée.</p></article>
+<article class="card"><span class="tag">ANGLOPHONE</span><h3>Form One → Upper Sixth</h3><p data-fr="Parcours secondaire anglophone jusqu'au GCE Advanced Level." data-en="Anglophone secondary pathway through GCE Advanced Level.">Parcours secondaire anglophone jusqu'au GCE Advanced Level.</p></article>
+<article class="card"><span class="tag">BILINGUE</span><h3>Un cadre commun</h3><p data-fr="Une identité Victoria commune aux deux parcours." data-en="A shared Victoria identity across both pathways.">Une identité Victoria commune aux deux parcours.</p></article>
+</div></div></section>
+
+<section class="section" id="valeurs"><div class="container"><span class="kicker">Notre identité</span><h2>Science · Discipline · Sagesse</h2><div class="grid">
+<article class="card"><h3>🔬 Science</h3><p data-fr="Comprendre, chercher, expérimenter et développer la rigueur du savoir." data-en="Understanding, investigating, experimenting and developing rigorous knowledge.">Comprendre, chercher, expérimenter et développer la rigueur du savoir.</p></article>
+<article class="card"><h3>🎯 Discipline</h3><p data-fr="Ponctualité, respect, engagement et exigence dans le travail." data-en="Punctuality, respect, commitment and high standards in work.">Ponctualité, respect, engagement et exigence dans le travail.</p></article>
+<article class="card"><h3>🧭 Sagesse</h3><p data-fr="Développer le discernement et le caractère pour la vie." data-en="Developing judgement and character for life.">Développer le discernement et le caractère pour la vie.</p></article>
+</div></div></section>
+
+
+<section class="section" id="admissions"><div class="container">
+<span class="kicker">Admissions</span>
+<h2 data-fr="Préparer son admission à Victoria" data-en="Prepare for admission to Victoria">Préparer son admission à Victoria</h2>
+<p class="lede" data-fr="Cette rubrique est prête à recevoir les conditions d'admission, les pièces à fournir, les frais et le calendrier officiel de l'établissement." data-en="This section is ready for the school's official admission requirements, documents, fees and calendar.">Cette rubrique est prête à recevoir les conditions d'admission, les pièces à fournir, les frais et le calendrier officiel de l'établissement.</p>
+<div class="grid">
+<article class="card"><span class="pill">ÉTAPE 1</span><h3>Demande d'information</h3><p>Contactez l'établissement pour connaître les modalités et les places disponibles.</p></article>
+<article class="card"><span class="pill">ÉTAPE 2</span><h3>Dossier</h3><p>Ajoutez ici la liste officielle des pièces demandées par l'école.</p></article>
+<article class="card"><span class="pill">ÉTAPE 3</span><h3>Inscription</h3><p>Ajoutez ici les dates, frais et instructions d'inscription confirmés.</p></article>
+</div>
+<div class="notice">ℹ️ Les informations administratives non présentes dans les sources disponibles ne sont volontairement pas inventées.</div>
+</div></section>
+
+<section class="section alt" id="actualites"><div class="container">
+<span class="kicker">Actualités</span><h2>La vie de Victoria</h2>
+<p class="lede">Un espace prêt pour publier les annonces, événements, résultats et informations destinées aux familles.</p>
+<div class="news-grid">
+<article class="news-card"><div class="news-cover">📣</div><div class="news-body"><small>ANNONCE</small><h3>Informations de rentrée</h3><p>Ajoutez ici les dates et consignes officielles dès leur publication.</p></div></article>
+<article class="news-card"><div class="news-cover">🎓</div><div class="news-body"><small>SCOLARITÉ</small><h3>Vie scolaire</h3><p>Présentez ici les activités, examens, réunions et événements de l'établissement.</p></div></article>
+<article class="news-card"><div class="news-cover">🏆</div><div class="news-body"><small>RÉUSSITES</small><h3>Nos élèves</h3><p>Publiez ici les résultats et réussites avec les informations validées par l'école.</p></div></article>
+</div></div></section>
+
+<section class="section" id="galerie"><div class="container">
+<span class="kicker">Galerie</span><h2>Découvrez l'établissement</h2>
+<p class="lede">La galerie est prête. Remplace les emplacements ci-dessous par les vraies photos de Victoria.</p>
+<div class="gallery">
+<figure><div class="photo">🏫</div><figcaption>Campus et bâtiments</figcaption></figure>
+<figure><div class="photo">👩🏾‍🏫</div><figcaption>Enseignement et encadrement</figcaption></figure>
+<figure><div class="photo">🎒</div><figcaption>Vie scolaire</figcaption></figure>
+</div></div></section>
+
+<section class="section alt" id="documents"><div class="container">
+<span class="kicker">Documents</span><h2>Téléchargements</h2>
+<p class="lede">Un espace central pour les documents destinés aux élèves et aux parents.</p>
+<div class="downloads">
+<div class="download"><div><b>📄 Règlement intérieur</b><br><span>PDF — à ajouter</span></div><span class="pill">BIENTÔT</span></div>
+<div class="download"><div><b>📄 Dossier d'inscription</b><br><span>PDF — à ajouter</span></div><span class="pill">BIENTÔT</span></div>
+<div class="download"><div><b>📄 Calendrier scolaire</b><br><span>PDF — à ajouter</span></div><span class="pill">BIENTÔT</span></div>
+</div></div></section>
+
+<section class="section" id="parents"><div class="container split">
+<div><span class="kicker">Parents & élèves</span><h2>Une communication plus simple</h2><p class="lede">Cette zone peut devenir le portail d'accès aux informations importantes : devoirs, calendriers, annonces et documents.</p></div>
+<div class="panel"><h3>Demande d'information</h3><form class="form" onsubmit="sendWhatsApp(event)">
+<input id="name" placeholder="Nom et prénom" required>
+<select id="subject"><option>Admission</option><option>Information générale</option><option>Section francophone</option><option>Section anglophone</option></select>
+<textarea id="message" placeholder="Votre message" required></textarea>
+<button class="btn primary" type="submit">Envoyer sur WhatsApp</button>
+<p class="small-note">Le numéro WhatsApp officiel doit être renseigné dans le code avant la mise en ligne.</p>
+</form></div>
+</div></section>
+
+<section class="section alt" id="contact"><div class="container"><div class="cta"><span class="kicker" style="color:#d7a83f">Contact & visite</span><h2 data-fr="Venez découvrir Victoria" data-en="Come discover Victoria">Venez découvrir Victoria</h2><p data-fr="L'établissement est situé à Béka, face au Lycée de Béka. WhatsApp : +237 659 965 116. Les autres coordonnées (téléphone fixe et e-mail) pourront être ajoutées après confirmation. : ils pourront être ajoutés ici dès confirmation." data-en="The school is located in Beka, facing Beka High School. Phone numbers and email are not present in the information currently available and can be added here once confirmed.">L'établissement est situé à Béka, face au Lycée de Béka. WhatsApp : +237 659 965 116. Les autres coordonnées (téléphone fixe et e-mail) pourront être ajoutées après confirmation. : ils pourront être ajoutés ici dès confirmation.</p><div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Institut+Prive+Bilingue+Victoria+Ngaoundere" target="_blank" rel="noopener">📍 Ouvrir dans Maps</a></div></div></div></section>
+</main>
+
+<footer><div class="container"><div class="footerrow"><div><div class="footerbrand">Institut Privé Bilingue Victoria</div><div>Béka • Ngaoundéré</div></div><div>Science · Discipline · Sagesse</div></div><div class="copyright">© 2026 Institut Privé Bilingue Victoria — Béka. Site en version bêta.</div></div></footer>
+
+<script>
+const nav=document.getElementById('nav');document.querySelector('.menu').onclick=()=>nav.classList.toggle('open');
+const lang=document.getElementById('lang'), els=document.querySelectorAll('[data-fr]');
+let current='fr';
+function apply(){els.forEach(e=>e.textContent=e.dataset[current]);document.documentElement.lang=current;lang.textContent=current==='fr'?'EN':'FR'}
+lang.onclick=()=>{current=current==='fr'?'en':'fr';apply()};
+</script>
+
+<a class="whatsapp" href="#" onclick="openWhatsApp(event)">💬 WhatsApp</a>
+<script>
+/* REMPLACER par le numéro officiel au format international, sans + ni espaces.
+   Exemple Cameroun : 2376XXXXXXXX */
+const WHATSAPP_NUMBER = "237659965116";
+function openWhatsApp(e){
+  e.preventDefault();
+  if(!WHATSAPP_NUMBER){ alert("Le numéro WhatsApp officiel de l'école doit encore être renseigné."); return; }
+  window.open("https://wa.me/"+WHATSAPP_NUMBER, "_blank");
+}
+function sendWhatsApp(e){
+  e.preventDefault();
+  if(!WHATSAPP_NUMBER){ alert("Le numéro WhatsApp officiel de l'école doit encore être renseigné."); return; }
+  const name=document.getElementById("name").value;
+  const subject=document.getElementById("subject").value;
+  const message=document.getElementById("message").value;
+  const text=encodeURIComponent("Bonjour Institut Privé Bilingue Victoria.%0A%0ANom : "+name+"%0ASujet : "+subject+"%0A%0A"+message);
+  window.open("https://wa.me/"+WHATSAPP_NUMBER+"?text="+text, "_blank");
+}
+</script>
+
+</body></html>
